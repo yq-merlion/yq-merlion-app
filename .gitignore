@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Java / Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local env and secrets (never commit)
+.env
+.env.*
+*.pem
+*.key
+
+# Scanner output
+trivy-*.json
+*.sarif
+
+# Local tool folders
+.claude/
